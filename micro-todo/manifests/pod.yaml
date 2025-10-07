@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: blank-page
+  namespace: blankv1
+spec:
+  containers:
+    - name: blank
+      image: anirudh632/fbclone:v3
+      ports:
+        - containerPort: 80
